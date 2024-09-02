@@ -1,0 +1,24 @@
+{
+  "originHash" : "e1d8d045ec52e1e69dad262b916121da2c8c44feebd0bae7504db42c8d0b222c",
+  "pins" : [
+    {
+      "identity" : "loremswiftum",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lukaskubanek/LoremSwiftum.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "8942e732e50458cde5dccf9996afa16f29372853"
+      }
+    },
+    {
+      "identity" : "swiftlintplugins",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SimplyDanny/SwiftLintPlugins",
+      "state" : {
+        "revision" : "6c3d6c32a37224179dc290f21e03d1238f3d963b",
+        "version" : "0.56.2"
+      }
+    }
+  ],
+  "version" : 3
+}

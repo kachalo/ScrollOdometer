@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		952EF81E2C8464EA005D2AFB /* FakePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952EF81D2C8464EA005D2AFB /* FakePostView.swift */; };
+		952EF8202C847560005D2AFB /* FakePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952EF81F2C847560005D2AFB /* FakePost.swift */; };
+		952EF8232C84770E005D2AFB /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = 952EF8222C84770E005D2AFB /* LoremSwiftum */; };
+		952EF8252C849CB0005D2AFB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952EF8242C849CB0005D2AFB /* Model.swift */; };
+		953A78BB2C7F6EB500853531 /* ScrollOdometerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953A78BA2C7F6EB500853531 /* ScrollOdometerApp.swift */; };
+		953A78BD2C7F6EB500853531 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953A78BC2C7F6EB500853531 /* ContentView.swift */; };
+		953A78BF2C7F6EB700853531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953A78BE2C7F6EB700853531 /* Assets.xcassets */; };
+		953A78C22C7F6EB700853531 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953A78C12C7F6EB700853531 /* Preview Assets.xcassets */; };
+		953A78C92C7F6ECA00853531 /* SocialFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953A78C82C7F6ECA00853531 /* SocialFeedView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		952EF81D2C8464EA005D2AFB /* FakePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakePostView.swift; sourceTree = "<group>"; };
+		952EF81F2C847560005D2AFB /* FakePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakePost.swift; sourceTree = "<group>"; };
+		952EF8242C849CB0005D2AFB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		953A78B72C7F6EB500853531 /* Scroll Odometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scroll Odometer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		953A78BA2C7F6EB500853531 /* ScrollOdometerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOdometerApp.swift; sourceTree = "<group>"; };
+		953A78BC2C7F6EB500853531 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		953A78BE2C7F6EB700853531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		953A78C12C7F6EB700853531 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		953A78C82C7F6ECA00853531 /* SocialFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialFeedView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		953A78B42C7F6EB500853531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952EF8232C84770E005D2AFB /* LoremSwiftum in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		953A78AE2C7F6EB500853531 = {
+			isa = PBXGroup;
+			children = (
+				953A78B92C7F6EB500853531 /* ScrollOdometer */,
+				953A78B82C7F6EB500853531 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		953A78B82C7F6EB500853531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				953A78B72C7F6EB500853531 /* Scroll Odometer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		953A78B92C7F6EB500853531 /* ScrollOdometer */ = {
+			isa = PBXGroup;
+			children = (
+				953A78BA2C7F6EB500853531 /* ScrollOdometerApp.swift */,
+				952EF8242C849CB0005D2AFB /* Model.swift */,
+				953A78BC2C7F6EB500853531 /* ContentView.swift */,
+				952EF81D2C8464EA005D2AFB /* FakePostView.swift */,
+				952EF81F2C847560005D2AFB /* FakePost.swift */,
+				953A78C82C7F6ECA00853531 /* SocialFeedView.swift */,
+				953A78BE2C7F6EB700853531 /* Assets.xcassets */,
+				953A78C02C7F6EB700853531 /* Preview Content */,
+			);
+			path = ScrollOdometer;
+			sourceTree = "<group>";
+		};
+		953A78C02C7F6EB700853531 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				953A78C12C7F6EB700853531 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		953A78B62C7F6EB500853531 /* ScrollOdometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953A78C52C7F6EB700853531 /* Build configuration list for PBXNativeTarget "ScrollOdometer" */;
+			buildPhases = (
+				953A78B32C7F6EB500853531 /* Sources */,
+				953A78B42C7F6EB500853531 /* Frameworks */,
+				953A78B52C7F6EB500853531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				952EF8282C859E3F005D2AFB /* PBXTargetDependency */,
+			);
+			name = ScrollOdometer;
+			packageProductDependencies = (
+				952EF8222C84770E005D2AFB /* LoremSwiftum */,
+			);
+			productName = ScrollMeter;
+			productReference = 953A78B72C7F6EB500853531 /* Scroll Odometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		953A78AF2C7F6EB500853531 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					953A78B62C7F6EB500853531 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 953A78B22C7F6EB500853531 /* Build configuration list for PBXProject "ScrollOdometer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 953A78AE2C7F6EB500853531;
+			packageReferences = (
+				952EF8212C84770E005D2AFB /* XCRemoteSwiftPackageReference "LoremSwiftum" */,
+				952EF8262C859E2C005D2AFB /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+			);
+			productRefGroup = 953A78B82C7F6EB500853531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				953A78B62C7F6EB500853531 /* ScrollOdometer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		953A78B52C7F6EB500853531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953A78C22C7F6EB700853531 /* Preview Assets.xcassets in Resources */,
+				953A78BF2C7F6EB700853531 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		953A78B32C7F6EB500853531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952EF8202C847560005D2AFB /* FakePost.swift in Sources */,
+				953A78C92C7F6ECA00853531 /* SocialFeedView.swift in Sources */,
+				952EF81E2C8464EA005D2AFB /* FakePostView.swift in Sources */,
+				952EF8252C849CB0005D2AFB /* Model.swift in Sources */,
+				953A78BD2C7F6EB500853531 /* ContentView.swift in Sources */,
+				953A78BB2C7F6EB500853531 /* ScrollOdometerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		952EF8282C859E3F005D2AFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 952EF8272C859E3F005D2AFB /* SwiftLintBuildToolPlugin */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		953A78C32C7F6EB700853531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		953A78C42C7F6EB700853531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		953A78C62C7F6EB700853531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScrollOdometer/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RUK85RSYM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eyen.ScrollOdometer;
+				PRODUCT_NAME = "Scroll Odometer";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		953A78C72C7F6EB700853531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScrollOdometer/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RUK85RSYM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eyen.ScrollOdometer;
+				PRODUCT_NAME = "Scroll Odometer";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		953A78B22C7F6EB500853531 /* Build configuration list for PBXProject "ScrollOdometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953A78C32C7F6EB700853531 /* Debug */,
+				953A78C42C7F6EB700853531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953A78C52C7F6EB700853531 /* Build configuration list for PBXNativeTarget "ScrollOdometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953A78C62C7F6EB700853531 /* Debug */,
+				953A78C72C7F6EB700853531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		952EF8212C84770E005D2AFB /* XCRemoteSwiftPackageReference "LoremSwiftum" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lukaskubanek/LoremSwiftum.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		952EF8262C859E2C005D2AFB /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.56.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		952EF8222C84770E005D2AFB /* LoremSwiftum */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 952EF8212C84770E005D2AFB /* XCRemoteSwiftPackageReference "LoremSwiftum" */;
+			productName = LoremSwiftum;
+		};
+		952EF8272C859E3F005D2AFB /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 952EF8262C859E2C005D2AFB /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 953A78AF2C7F6EB500853531 /* Project object */;
+}
